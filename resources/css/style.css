@@ -1,0 +1,139 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+/* banner container */
+.logo_container {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo_section {
+  width: 960px;
+  display: flex;
+}
+.logo img {
+  padding-left: 0.5rem;
+  padding-top: 0.66rem;
+  padding-right: 1rem;
+  padding-bottom: 0.66rem;
+  height: 1.5rem;
+}
+.title {
+  color: white;
+  padding-left: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_arrival_container {
+  background-image: url("../../resources/images/moto.jpeg");
+  height: 25rem;
+  width: 100%;
+  display: block;
+  justify-content: center;
+
+}
+.new_arrival_container h3, h1 {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding-left: 3rem;
+
+}
+.new_arrival_container h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-right: 2rem;
+
+}
+.new_arrival_container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+
+}
+
+/* banner container end */
+
+
+/* navigation */
+.navigation_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: firebrick;
+  color: white;
+  width: 960px;
+}
+.navigation_container p {
+  display: inline;
+  justify-content: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+/* navigation end */
+
+/* product */
+.product_container {
+  display: flex;
+  justify-content: space-around;
+  width: 960px;
+  border: 1px solid pink;
+  margin-top: 3rem;
+}
+.product_box {
+  border: 4px solid black;
+  display: block;
+  justify-content: center;
+  width: 30%;
+}
+.product_box img {
+  height: 9rem;
+  width: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid blue;
+}
+.product_box h4 {
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+/* product end */
+
+/* location hours container */
+.location_hour {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  width: 960px;
+}
+.location_title, .hours_title {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer {
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+  height: 5rem;
+}
